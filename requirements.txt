@@ -1,5 +1,5 @@
 numpy
 pandas
-bokeh
+bokeh==2.1.1
 requests
 beautifulsoup4
