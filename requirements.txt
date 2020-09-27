@@ -4,3 +4,4 @@ bokeh==2.1.1
 requests
 beautifulsoup4
 geopandas
+uk-covid19
