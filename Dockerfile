@@ -2,7 +2,7 @@ FROM python:3.8-slim-buster
 ENV PYTHONUNBUFFERED 1
 
 # Install the build tools
-RUN apt update && apt install -y build-essential
+RUN apt update && apt install -y build-essential libgdal-dev
 
 # Make the code directory
 RUN mkdir /code
